@@ -1,5 +1,5 @@
 # Install requests python package
-RUN pip3 install requests
+RUN pip install requests
 
 # Install Docker
 RUN apt install apt-transport-https ca-certificates curl software-properties-common -y \
