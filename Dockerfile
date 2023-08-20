@@ -1,12 +1,3 @@
-# Update system packages
-RUN apt update && apt upgrade -y
-
-# Install Python3 and pip if they are not installed
-RUN apt install python3 python3-pip -y
-
-# Install tkinter if it's not installed (usually it is included with python3)
-RUN apt install python3-tk -y
-
 # Install requests python package
 RUN pip3 install requests
 
